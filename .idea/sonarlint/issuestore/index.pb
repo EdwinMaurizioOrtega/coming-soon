@@ -13,8 +13,6 @@ B
 src/api/product.js,6/a/6ab0d0384c583cf3de1ca4dc40b945410ec8b600
 M
 src/app/coming-soon/layout.js,1/0/1055969ebd396d162602f6806c5131d9894ed235
-K
-src/app/coming-soon/page.js,1/e/1ec403957f56ccd950046be45ee3828792b66629
 D
 src/app/not-found.js,e/5/e5d7648bffb1c7c9b36749467eaa5e17a20e9beb
 <
@@ -25,8 +23,6 @@ a
 1src/components/scroll-progress/scroll-progress.js,8/3/83f549d1e74531f7430bf0020c0d5a43251d93ad
 O
 src/sections/home/view/index.js,c/5/c5e70e84808fb0a3ace96a3602de610bcbf8c56d
->
-next.config.js,8/1/811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

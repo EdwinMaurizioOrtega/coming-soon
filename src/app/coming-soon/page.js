@@ -4,7 +4,7 @@ import ComingSoonView from 'src/sections/coming-soon/view';
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Coming Soon',
+  title: 'Edwin Ortega',
 };
 
 export default function ComingSoonPage() {
