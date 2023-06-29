@@ -12,10 +12,37 @@ import Image from 'src/components/image';
 import Iconify from 'src/components/iconify';
 import { useSettingsContext } from 'src/components/settings';
 import { MotionViewport, varFade } from 'src/components/animate';
+import Grid from "@mui/material/Unstable_Grid2";
+import Lightbox, {useLightBox} from "../../components/lightbox";
 
 // ----------------------------------------------------------------------
 
+
+
+const images = [
+    {
+        src: "/assets/images/home/a_1.png",
+        title: "Paso 1",
+        description: "Edwin Ortega \n Senior Software Engineer"
+    },
+    {
+        src: "/assets/images/home/a_2.png",
+        title: "Paso 2",
+        description: "Edwin Ortega \n Senior Software Engineer"
+    },
+    {
+        src: "/assets/images/home/a_3.png",
+        title: "Paso 3",
+        description: "Edwin Ortega \n Senior Software Engineer"
+    },
+];
+
+const slides = [
+    ...images,
+];
 export default function HomeColorPresets() {
+
+    const lightbox = useLightBox(slides);
   const settings = useSettingsContext();
 
   const options = primaryPresets.map((color) => ({
@@ -49,57 +76,50 @@ export default function HomeColorPresets() {
 
 
 
-    <Box sx={{ position: 'relative' }}>
+          <Grid xs={12} md={8}>
 
 
+              <Grid xs={12} md={9}>
+                  <Box
+                      gap={1}
+                      display="grid"
+                      gridTemplateColumns={{
+                          xs: 'repeat(2, 1fr)',
+                          sm: 'repeat(3, 1fr)',
+                          md: 'repeat(4, 1fr)',
+                      }}
+                  >
+                      {slides.map((slide) => {
+                          const thumbnail = slide.src;
+
+                          return (
+                              <Image
+                                  key={thumbnail}
+                                  alt={thumbnail}
+                                  src={thumbnail}
+                                  ratio="1/1"
+                                  onClick={() => lightbox.onOpen(`${thumbnail}`)}
+                                  sx={{
+                                      borderRadius: 1,
+                                      cursor: 'pointer',
+                                  }}
+                              />
+                          );
+                      })}
+                  </Box>
+              </Grid>
 
 
-          <Image
-            width="33%"
-            disabledEffect
-            alt="screen"
-            src={`/assets/images/home/a_1.png`}
-          />
+              <Lightbox
+                  open={lightbox.open}
+                  close={lightbox.onClose}
+                  slides={slides}
+                  index={lightbox.selected}
 
+              />
 
+          </Grid>
 
-
-    </Box>
-
-    <Box sx={{ position: 'relative' }}>
-
-
-
-
-
-
-        <Image
-            width="33%"
-            disabledEffect
-            alt="sidebar"
-            src={`/assets/images/home/a_2.png`}
-        />
-
-
-
-
-    </Box>
-
-    <Box sx={{ position: 'relative' }}>
-
-
-
-
-
-        <Image
-            width="33%"
-            disabledEffect
-            alt="chart"
-            src={`/assets/images/home/a_3.png`}
-        />
-
-
-    </Box>
 
       </>
   );

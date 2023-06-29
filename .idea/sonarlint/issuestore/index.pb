@@ -25,8 +25,6 @@ a
 1src/components/scroll-progress/scroll-progress.js,8/3/83f549d1e74531f7430bf0020c0d5a43251d93ad
 O
 src/sections/home/view/index.js,c/5/c5e70e84808fb0a3ace96a3602de610bcbf8c56d
-D
-public/manifest.json,4/2/42e89cd2213b9d5dfae4f63522702c623170d792
 >
 next.config.js,8/1/811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
 :

@@ -14,55 +14,55 @@ import {MotionViewport, varFade} from 'src/components/animate';
 const CARDS = [
     {
         icon: ' /assets/icons/home/ic_development.svg',
-        title: 'Adopción de tecnologías actuales',
-        description: 'Los CRM suelen utilizar tecnologías modernas y actualizadas en su desarrollo, lo que garantiza un sistema robusto, escalable y compatible con otras aplicaciones y plataformas.',
+        title: 'Adopción de tecnologías actuales.',
+        description: 'En nuestro nuevo CRM se utilizo tecnologías modernas y actualizadas en el desarrollo, lo que garantiza un sistema robusto, escalable y compatible con otras aplicaciones y plataformas.',
     },
     {
         icon: ' /assets/icons/home/ic_make_brand.svg',
-        title: 'Administración eficiente de las interacciones con los clientes:',
-        description: 'Un CRM permite gestionar y analizar las interacciones de órdenes de compra y clientes de manera centralizada y organizada.',
+        title: 'Administración eficiente de las interacciones con los clientes.',
+        description: 'Nuestro CRM permite gestionar y analizar las interacciones de órdenes de compra y clientes de manera centralizada y organizada.',
     },
     {
         icon: ' /assets/icons/home/ic_design.svg',
-        title: 'Optimización de la rentabilidad: ',
+        title: 'Optimización de la rentabilidad.',
         description:
-            'Al tener un control y seguimiento preciso de las interacciones con los clientes, un CRM ayuda a identificar oportunidades de ventas adicionales y a maximizar la rentabilidad.',
+            'Al tener un control y seguimiento preciso de las interacciones con los clientes, el CRM nos ayuda a identificar oportunidades de ventas adicionales y a maximizar la rentabilidad.',
     },
     {
         icon: ' /assets/icons/home/ic_design.svg',
-        title: 'Incremento de las ventas a nuevos clientes:',
-        description: 'Mediante la gestión efectiva de los datos de clientes potenciales y el seguimiento de las oportunidades de venta, un CRM ayuda a aumentar las ventas a nuevos clientes.',
+        title: 'Incremento de las ventas a nuevos clientes.',
+        description: 'Mediante la gestión efectiva de los datos de clientes potenciales y el seguimiento de las oportunidades de venta, nuestro CRM ayuda a aumentar las ventas a nuevos clientes.',
     },
     {
         icon: ' /assets/icons/home/ic_design.svg',
-        title: 'Integración con sistemas de facturación:',
+        title: 'Integración con sistemas de facturación.',
         description:
-            'Al complementarse con el sistema de facturación, como en tu caso, el CRM permite una mayor eficiencia en el proceso de facturación y seguimiento de pagos.',
+            'Al complementarse con el sistema de facturación SAP, nuestro CRM permite una mayor eficiencia en el proceso de facturación y seguimiento de pagos.',
     },
     {
         icon: ' /assets/icons/home/ic_make_brand.svg',
-        title: 'Análisis y reportes avanzados:',
-        description: 'Los sistemas CRM suelen ofrecer capacidades de análisis y generación de informes, lo que proporciona información valiosa para la toma de decisiones basadas en datos.',
+        title: 'Análisis y reportes avanzados.',
+        description: 'Nuestro sistema CRM ofrecerá capacidades de análisis y generación de informes, lo que proporciona información valiosa para la toma de decisiones basadas en datos.',
     },
     {
         icon: ' /assets/icons/home/ic_design.svg',
-        title: 'Automatización de tareas y procesos:',
-        description: 'Un CRM permite automatizar diversas tareas y procesos relacionados con la gestión de clientes, lo que ahorra tiempo y reduce errores.',
+        title: 'Automatización de tareas y procesos',
+        description: 'El CRM permitirá automatizar diversas tareas y procesos relacionados con la gestión de clientes, lo que ahorra tiempo y reduce errores.',
     },
     {
         icon: ' /assets/icons/home/ic_development.svg',
-        title: 'Mejor colaboración y comunicación interna:',
-        description: ' Al contar con un sistema centralizado de gestión de clientes, el CRM facilita la colaboración y la comunicación entre los diferentes departamentos de la empresa.',
+        title: 'Mejor colaboración y comunicación interna.',
+        description: ' Al contar con un sistema centralizado de gestión de clientes y pedidos, el CRM facilita la colaboración y la comunicación entre los diferentes departamentos de la empresa.',
     },
     {
         icon: ' /assets/icons/home/ic_make_brand.svg',
-        title: 'Personalización y segmentación de la comunicación',
-        description: 'Un CRM proporciona información detallada sobre los clientes, lo que permite personalizar y segmentar la comunicación para ofrecer una experiencia más relevante y personalizada.',
+        title: 'Personalización y segmentación de la comunicación.',
+        description: 'El CRM proporcionará información detallada sobre los clientes, lo que permite personalizar y segmentar la comunicación para ofrecer una experiencia más relevante y personalizada en ventas.',
     },
     {
         icon: ' /assets/icons/home/ic_make_brand.svg',
-        title: 'Fidelización de clientes::',
-        description: 'Al tener un conocimiento profundo de los clientes y sus necesidades, un CRM ayuda a desarrollar estrategias de fidelización efectivas, mejorando la retención de clientes.',
+        title: 'Fidelización de clientes.',
+        description: 'Al tener un conocimiento profundo de los clientes y sus necesidades, el CRM ayudará a desarrollar estrategias de fidelización efectivas, mejorando la retención de clientes.',
     },
 ];
 

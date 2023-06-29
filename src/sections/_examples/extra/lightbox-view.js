@@ -26,7 +26,7 @@ import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 const images = [...Array(4)].map((_, index) => ({
   src: _mock.image.cover(index + 1),
   title: 'Flamingo',
-  description: 'Vicko Mozara \n Veliki zali, Dubravica, Croatia',
+  description: 'Vicko Mozara \n Senior Software Engineer',
 }));
 
 const slides = [

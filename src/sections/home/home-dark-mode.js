@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography';
 import Image from 'src/components/image';
 import { useSettingsContext } from 'src/components/settings';
 import { MotionViewport, varFade } from 'src/components/animate';
+import HomeLookingFor from "./home-looking-for";
 
 // ----------------------------------------------------------------------
 
@@ -75,6 +76,8 @@ export default function HomeDarkMode() {
 
         {renderImg}
       </Container>
+
+        <HomeLookingFor />
     </Box>
   );
 }

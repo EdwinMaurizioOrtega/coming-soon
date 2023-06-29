@@ -72,7 +72,7 @@ export default function HomeView() {
 
         <HomeDarkMode />
 
-        <HomeLookingFor />
+
 
         <HomeColorPresets />
 

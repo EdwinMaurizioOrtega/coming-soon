@@ -199,7 +199,7 @@ export default function HomeHero() {
 
       <m.div variants={varFade().in}>
         <Typography variant="body2" sx={{ textAlign: 'center' }}>
-          ¡Hola a todos! ¡Emocionados de anunciar el próximo lanzamiento de nuestra nueva aplicación/plataforma con funcionalidades mejoradas! Trabajamos arduamente para mejorar la experiencia de usuario y agregar características útiles, haciendo el proceso más rápido y eficiente.
+          ¡Hola a todos! ¡Estamos emocionados de anunciar el próximo lanzamiento de nuestra nueva aplicación/plataforma con funcionalidades mejoradas! Trabajamos arduamente para mejorar la experiencia de usuario y agregar características útiles, haciendo el proceso de creación, aprobación y despacho más rápido y eficiente.
         </Typography>
       </m.div>
 
@@ -226,7 +226,7 @@ export default function HomeHero() {
           <Stack alignItems="center" spacing={2}>
             <Button
               component={RouterLink}
-              href={paths.dashboard.root}
+              href="#"
               color="inherit"
               size="large"
               variant="contained"
@@ -255,7 +255,7 @@ export default function HomeHero() {
             startIcon={<Iconify icon="eva:external-link-fill" width={24} />}
             target="_blank"
             rel="noopener"
-            href={paths.figma}
+            href="#"
             sx={{ borderColor: 'text.primary' }}
           >
             Diapositivas
