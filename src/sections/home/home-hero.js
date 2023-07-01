@@ -23,6 +23,8 @@ import { HEADER } from 'src/layouts/config-layout';
 import Iconify from 'src/components/iconify';
 import { RouterLink } from 'src/routes/components';
 import { MotionContainer, varFade } from 'src/components/animate';
+import Switch from "@mui/material/Switch";
+import {useSettingsContext} from "../../components/settings";
 
 // ----------------------------------------------------------------------
 
@@ -117,6 +119,8 @@ const StyledPolygon = styled('div')(({ opacity = 1, anchor = 'left', theme }) =>
 export default function HomeHero() {
   const mdUp = useResponsive('up', 'md');
 
+  const settings = useSettingsContext();
+
   const theme = useTheme();
 
   const heroRef = useRef(null);
@@ -195,6 +199,15 @@ export default function HomeHero() {
         >
           LIDENAR
         </StyledTextGradient>
+      </m.div>
+
+      <m.div variants={varFade().inUp}>
+        <Switch
+            checked={settings.themeMode === 'dark'}
+            onClick={() =>
+                settings.onUpdate('themeMode', settings.themeMode === 'light' ? 'dark' : 'light')
+            }
+        />
       </m.div>
 
       <m.div variants={varFade().in}>

@@ -93,7 +93,7 @@ export default function HomeLookingFor() {
         >
             <m.div variants={varFade().inDown}>
                 <Typography variant="overline" component="div" sx={{color: 'common.white'}}>
-                    PERFIL
+                    PERFIL VENDEDOR
                 </Typography>
             </m.div>
 
@@ -107,7 +107,7 @@ export default function HomeLookingFor() {
                         color: 'common.white',
                     }}
                 >
-                    VENDEDOR
+                    🛒MAYORISTA 🛍️TIENDA
                 </Typography>
             </m.div>
 

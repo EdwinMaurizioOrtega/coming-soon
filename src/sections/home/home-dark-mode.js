@@ -71,11 +71,11 @@ export default function HomeDarkMode() {
         pb: { xs: 10, md: 20 },
       }}
     >
-      <Container component={MotionViewport}>
-        {renderDescription}
+      {/* <Container component={MotionViewport}> */}
+      {/*   {renderDescription} */}
 
-        {renderImg}
-      </Container>
+      {/*   {renderImg} */}
+      {/* </Container> */}
 
         <HomeLookingFor />
     </Box>

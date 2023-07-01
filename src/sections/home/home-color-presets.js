@@ -35,6 +35,11 @@ const images = [
         title: "Paso 3",
         description: "Edwin Ortega \n Senior Software Engineer"
     },
+    {
+        src: "/assets/images/home/a_4.png",
+        title: "Paso 4",
+        description: "Edwin Ortega \n Senior Software Engineer"
+    },
 ];
 
 const slides = [
@@ -59,12 +64,12 @@ export default function HomeColorPresets() {
       </m.div>
 
       <m.div variants={varFade().inDown}>
-        <Typography variant="h2"> APROBADOR </Typography>
+        <Typography variant="h2"> 💵 APROBADOR </Typography>
       </m.div>
 
       <m.div variants={varFade().inDown}>
         <Typography sx={{ color: 'text.secondary' }}>
-          Cartera
+          Cartera - Maria Augusta
         </Typography>
       </m.div>
     </Stack>

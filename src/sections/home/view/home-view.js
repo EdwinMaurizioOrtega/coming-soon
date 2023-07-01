@@ -19,6 +19,7 @@ import HomeColorPresets from '../home-color-presets';
 import HomeAdvertisement from '../home-advertisement';
 import HomeCleanInterfaces from '../home-clean-interfaces';
 import HomeHugePackElements from '../home-hugepack-elements';
+import HomeDeleteApp from "../home-delete-app";
 
 // ----------------------------------------------------------------------
 
@@ -60,6 +61,9 @@ export default function HomeView() {
           bgcolor: 'background.default',
         }}
       >
+
+        <HomeDeleteApp />
+
         <HomeMinimal />
 
         <HomeHugePackElements />
@@ -71,8 +75,6 @@ export default function HomeView() {
         </Box>
 
         <HomeDarkMode />
-
-
 
         <HomeColorPresets />
 

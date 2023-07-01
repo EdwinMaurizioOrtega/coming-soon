@@ -31,6 +31,11 @@ const images = [
         title: "Paso 3",
         description: "Edwin Ortega \n Senior Software Engineer"
     },
+    {
+        src: "/assets/images/home/b_4.png",
+        title: "Paso 3",
+        description: "Edwin Ortega \n Senior Software Engineer"
+    },
 ];
 
 const slides = [
@@ -75,7 +80,7 @@ export default function HomeCleanInterfaces() {
                         color: 'common.black',
                     }}
                 >
-                    BODEGA
+                    📦 BODEGA
                 </Typography>
             </m.div>
 
