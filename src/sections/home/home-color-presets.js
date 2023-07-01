@@ -64,7 +64,7 @@ export default function HomeColorPresets() {
       </m.div>
 
       <m.div variants={varFade().inDown}>
-        <Typography variant="h2"> 💵 APROBADOR </Typography>
+        <Typography variant="h2"> 💵 APROBACIÓN </Typography>
       </m.div>
 
       <m.div variants={varFade().inDown}>

@@ -50,7 +50,7 @@ export default function HomeCleanInterfaces() {
 
     const renderBtn = (
 
-        <Image disabledEffect alt="rocket" src="/assets/illustrations/characters/animal.svg"/>
+        <Image disabledEffect alt="rocket" src="/assets/illustrations/characters/animal_2.svg"/>
 
     );
 
